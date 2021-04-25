@@ -4,7 +4,7 @@
 <h1 align="center">ESTRUTURA</h1>
 
 <ul>
-  
+<li>Crie uma pasta na raiz do projeto com seu rm e dentro desta pasta realize todo o desenvolvimento dos exercícios.</li>  
 <li>Nome da página: - forms.html</li>
 <li>Container: Definir uma <div> como container principal. Determine esse elemento como id de nome “container”(*) para esse elemento. Este deve conter todos os outros elementos.</li>
 <li>
