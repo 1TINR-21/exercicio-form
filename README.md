@@ -34,7 +34,11 @@
 </ul>
 
 <h2>Exercício - 1</h2>
-Format: ![Formulário-1](url)
+Format: ![Formulário-1](https://drive.google.com/file/d/1aq6yeJoPqxTo3mR2c4RyhM5zwYxIW7Q1/view?usp=sharing)
+<h2>Exercício - 2</h2>
+Format: ![Formulário-2](https://drive.google.com/file/d/1X1Yz8opPMJPZT3XELvm-RTBnLyS18CJM/view?usp=sharing)
+<h2>Exercício - 3</h2>
+Format: ![Formulário-3](https://drive.google.com/file/d/1L8BuHSxAy6Zekug_GdH00j9pzDZZThxi/view?usp=sharing)
 
 
 APRESENTAÇÃO
