@@ -1,0 +1,223 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="./css/estilos.css"/>
+    <title>Exercício de Form</title>
+</head>
+<body>
+    <div id="container">
+        <header class="cabecalho">
+            <!-- 
+                prof, nao tinha a imagem disponibilizada então tá comentado essa parte
+            <img class="logo" src="banner-form-1.jpg"/> 
+            -->
+            <nav class="menu">
+                <li>
+                    <ul><a href="#">Home</a></ul>
+                    <ul><a href="#">Sobre</a></ul>
+                    <ul><a href="#">Notícias</a></ul>
+                    <ul><a href="#">Contato</a></ul>
+                </li>
+            </nav>
+        </header>
+        <section class="conteudo">
+            <!-- 
+                essa também 
+            <img src="banner.jpg"/>
+            -->
+            <div class="box">
+                <div class="form-01">
+                    <h1>Cadastro de Candidatos</h1>
+                    <form action="#" method="GET">
+                        <fieldset class="dados-pessoais">
+                            <legend>Dados pessoais</legend>
+                            <div class="name">
+                                <label for="txtName">Nome:</label>
+                                <input type="text" name="name" id="txtName"/>
+                            </div>
+                            <div class="endereco">
+                                <label for="txtEnd">Endereço:</label>
+                                <input type="text" name="end" id="txtEnd"/>
+                            </div>
+                            <div class="cidade">
+                                <label for="txtCid">Cidade:</label>
+                                <input type="text" name="cid" id="txtCid"/>
+                            </div>
+                            <div class="estado">
+                                <label for="opEst">Estado:</label>
+                                <select id="opEst">
+                                    <option selected value="sp">São Paulo</option>
+                                    <option value="rj">Rio de Janeiro</option>
+                                    <option value="sc">Santa Catarina</option>
+                                </select>
+                            </div>
+                        </fieldset>
+                        <fieldset>
+                            <legend>Dados profissionais</legend>
+                            <div class="cargo">
+                                <p>Natureza do Cargo</p>
+                                <input type="radio" name="op" id="opGer" value="Gerencia" checked/>
+                                <label for="opGer">Gerência</label>
+                                <input type="radio" name="op" id="opFin" value="Financeiro"/>
+                                <label for="opFin">Financeiro</label>
+                                <input type="radio" name="op" id="opRecep" value="Recepcao"/>
+                                <label for="opRecep">Recepção</label>
+                                <input type="radio" name="op" id="opAdm" value="Administrativo"/>
+                                <label for="opAdm">Administrativo</label>
+                                <input type="radio" name="op" id="opJur" value="Juridico"/>
+                                <label for="opJur">Jurídico</label>
+                            </div>
+                            <div class="interesse">
+                                <p>Área de interesse</p>
+                                <input type="checkbox" name="check" id="checkComp" value="Computacao"/>
+                                <label for="checkComp">Computação</label>
+                                <input type="checkbox" name="check" id="checkBio" value="Biologia"/>
+                                <label for="checkBio">Biologia</label>
+                                <input type="checkbox" name="check" id="checkMA" value="Meio Ambiente"/>
+                                <label for="checkMA">Meio Ambiente</label>
+                                <input type="checkbox" name="check" id="checkEng" value="Engenharia"/>
+                                <label for="checkEng">Engenharia</label>
+                                <input type="checkbox" name="check" id="checkHist" value="Historia"/>
+                                <label for="checkHist">História</label>
+                            </div>
+                            <div class="curriculo">
+                                <label for="txtCurr">Mini-curriculo</label>
+                                <textarea id="txtCurr"></textarea>
+                            </div>
+                        </fieldset>
+                        <input type="submit" name="enviar" class="enviar" value="Enviar"/>
+                        <input type="reset" name="reset" class="limpar" value="Limpar"/>
+                    </form>
+                </div>
+                <hr/>
+                <div class="form-02">
+                    <form action="#" method="POST">
+                        <h1>Método de Pagamento</h1>
+                        <p>Campos obrigatórios são seguidos por *.</p>
+                        <h2>Informações de Contato</h2>
+                        <div class="info-contato">
+                            <div class="titulo">
+                                <fieldset>
+                                    <legend>Título</legend>
+                                    <input type="radio" name="op" id="opAs" value="As"/>
+                                    <label for="opAs">Ás</label><br/>
+                                    <input type="radio" name="op" id="opRei" value="Rei"/>
+                                    <label for="opRei">Rei</label><br/>
+                                    <input type="radio" name="op" id="opRain" value="Rainha"/>
+                                    <label for="opRain">Rainha</label>
+                                </fieldset>
+                            </div>
+                            <div class="dados">
+                                <div class="inputs">
+                                    <input type="text" name="name" id="txtName2" required/>
+                                    <input type="text" name="email" id="txtEmail2" required/>
+                                    <input type="password" name="senha" id="txtPass2" required/>
+                                </div>
+                                <div class="labels">
+                                    <br/><label for="txtName2">Nome:*</label>
+                                    <br/><label for="txtEmail2">E-mail:*</label>
+                                    <br/><label for="txtPass2">Senha:*</label>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="info-pag">
+                            <h2>Informações de Pagamento</h2>
+                            <div class="inputs">
+                                <select>
+                                    <option selected value="Visa">Visa</option>
+                                    <option value="master">MasterCard</option>
+                                </select><br/>
+                                <input type="number" name="num" id="nCrt" required/><br/>
+                                <input type="date" name="data" id="dtExp" required/><br/>
+                            </div>
+                            <div class="labels">
+                                <label for="opTpCrt">Tipo de Cartão</label><br/>
+                                <label for="nCrt">Número do Cartão: *</label><br/>
+                                <label for="dtExp">Data de Expiração: *</label>
+                            </div>
+                                <p><i>formato da data <br/>
+                                dd/mm/yyyy</i></p>
+                        </div>
+                        <input type="submit" name="validar" id="btValidPag" value="Validar o Pagamento"/>
+                    </form>
+                </div>
+                <hr/>
+                <div class="form-03">
+                    <h1>SISTEMA DE GESTÃO ACADÊMICA</h1>
+                    <form action="#" method="POST">
+                        <h2>MANUTENÇÃO DE USUÁRIOS DO SISTEMA INTERNO</h2>
+                        <div class="labels">
+                            <div class="principal">
+                                <label for="txtLogin">Login</label><br/>
+                                <label for="txtPass3">Senha</label><br/>
+                                <label for="opSts">Status</label><br/>
+                                <label for="opTec">Tipo</label><br/>
+                                <label for="txtDtCri">Data Criação</label><br/>
+                                <label for="opConv">Perfil</label><br/>
+                            </div>
+                            <div class="final">
+                                <label for="txtObs">Observações</label><br/>
+                                <label for="checkCompr">Módulos</label><br/>
+                            </div>
+                        </div>
+                        <div class="inputs">
+                            <div class="principal">
+                                <input type="text" name="login" id="txtLogin"/><br/>
+                                <input type="password" name="pass" id="txtPass3"/><br/>
+                            </div>
+                            <select id="opSts">
+                                <option selected value="Inativo">Inativo</option>
+                                <option value="Ativo">Ativo</option>
+                            </select><br/>
+                            <div class="radios">
+                                <input type="radio" name="op" id="opTec" value="Tecnico"/>
+                                <label for="opTec">Técnico</label>
+                                <input type="radio" name="op" id="opProf" value="Professor"/>
+                                <label for="opProf">Professor</label>
+                                <input type="radio" name="op" id="opAl" value="Aluno"/>
+                                <label for="opAl">Aluno</label>
+                            </div>
+                            <div class="principal">
+                                <input type="txt" name="dtCri" id="txtDtCri"/>
+                            </div>
+                            <div class="radios">
+                                <input type="radio" name="op" id="opConv" value="Convidado"/>
+                                <label for="opConv">Convidado</label>
+                                <input type="radio" name="op" id="opAdm3" value="Administrador"/>
+                                <label for="opAdm3">Administrador</label>
+                            </div>
+                            <textarea id="txtObs"></textarea><br/>
+                            <div class="checkbox">
+                                <input type="checkbox" name="compras" id="checkCompr" value="compras"/>
+                                <label for="checkCompr">Compras</label>
+                                <input type="checkbox" name="bibli" id="checkBibli" value="biblioteca"/>
+                                <label for="checkBibli">Biblioteca</label>
+                                <input type="checkbox" name="acad" id="checkAcad" value="academico"/>
+                                <label for="checkAcad">Acadêmico</label>
+                                <br/><input type="checkbox" name="doc" id="checkDoc" value="documentacao"/>
+                                <label for="checkDoc">Documentação</label>
+                                <input type="checkbox" name="rh" id="checkRh" value="recursos humanos"/>
+                                <label for="checkRh">Recursos Humanos</label>
+                            </div>
+                        </div>
+                        <div class="botoes">
+                            <input type="submit" name="cadastrar" id="btnCad" value="Cadastrar"/>
+                            <input type="reset" name="excluir" id="btnRes" value="Excluir"/>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </section>
+        <footer class="rodape">
+            <p>
+                2021.Design Responsivo.
+            </p>
+            <small class="creditos">
+                Criado por: <a href="#">Nicole Ribeiro.</a>
+            </small>
+        </footer>
+    </div>
+</body>
+</html>
