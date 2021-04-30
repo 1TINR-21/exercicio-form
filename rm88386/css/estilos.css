@@ -1,0 +1,212 @@
+nav li{
+    list-style: none;
+}
+nav li ul a{
+    float:left;
+    text-decoration: none;
+    margin: 3px;
+}
+.form-01{
+    max-width: 38%;
+    padding: 10px;
+    margin: 0 auto;
+}
+.form-01 h1{
+    margin-bottom: 2px;;
+    font-weight: lighter;
+    font-size: 20px;
+}
+.form-01 fieldset{
+    padding: 10px;
+    font-size: 15px;
+}
+.dados-pessoais div{
+    margin: 3px;
+}
+.cargo p{
+    margin-top: 1px;
+    margin-bottom: 2px;
+}
+.interesse p{
+    margin-bottom: 2px;
+}
+.form-01 textarea{
+    width: 350px;
+    height: 80px;
+    margin-top: 20px;
+}
+.enviar{
+    margin-top: 20px;
+}
+.limpar{
+    margin-top: 20px;
+}
+.form-02{
+    max-width: 25%;
+    padding: 10px;
+    margin: 0 auto;
+    border: 1px solid;
+    border-color: #A9A9A9;
+    border-radius: 20px;
+}
+.form-02 h1{
+    font-size: 30px;
+    margin-top: 10px;
+}
+.form-02 h2{
+    font-size: 25px;
+}
+.info-contato .titulo fieldset{
+    float:right;
+    width: 200px;
+    border: 1px solid;
+    border-color: #A9A9A9;
+    font-size: 15px;;
+}
+.info-contato .dados{
+    display: block;
+}
+.info-contato .dados .inputs{
+    float: right;
+}
+.info-contato .dados input{
+    display: block;
+    margin-top: 15px;
+    width: 220px;
+    border: 1px solid;
+    border-color: #A9A9A9;
+}
+.info-contato .dados .labels{
+    float: right;
+    padding: 1px;
+    font-size: 15px;
+}
+.info-contato .dados label{
+    display: block;
+}
+.info-pag{
+    display: inline-block;
+}
+.info-pag .labels{
+    float: right;
+    margin-left: 5px;
+}
+.info-pag .labels label{
+    display: block;
+    width: 95px;
+    text-align: right;
+    font-size: 15px;
+    padding-right: 4px;
+}
+.info-pag .inputs{
+    float: right;
+}
+.info-pag .inputs input{
+    display: block;
+    float: right;
+    margin-top: 30px;
+    padding-left: 3px;
+    width: 220px;
+    border: 1px solid;
+    border-color: #A9A9A9;
+}
+.info-pag .inputs select{
+    border: 1px solid;
+    border-color: #A9A9A9;
+}
+#btValidPag{
+    display: block;
+    margin: 0 auto;
+}
+.form-03{
+    max-width: 57%;
+    padding: 10px;
+    margin: 0 auto;
+}
+.form-03 h1{
+    font-size: 15px;
+    background-color: #B8860B;
+    font-weight: lighter;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 3px;
+    padding-left: 8px;
+}
+.form-03 h2{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    padding-left: 8px;
+}
+.form-03 .inputs{
+    display: block;
+    float: left;
+    max-width: 50%;
+}
+.form-03 .inputs .principal{
+    margin-left: 100px;
+}
+.form-03 .inputs select{
+    margin-left: 100px;
+}
+.form-03 .inputs .radios{
+    margin-left: 100px;
+}
+.form-03 .inputs textarea{
+    margin-left: 100px;
+}
+.form-03 .inputs .checkbox{
+    margin-left: 100px;
+}
+.form-03 .inputs input{
+    font-size: 15px;
+    padding-left: 8px;
+    padding-top: 5px;
+    margin-top: 7px;
+    height: 15px;
+    border: 1.5px solid;
+    border-color: #A9A9A9;
+}
+.form-03 .inputs select{
+    font-size: 15px;
+    margin-top: 5px;
+    height: 25px;
+    border: 1.5px solid;
+    border-color: #A9A9A9;
+}
+.form-03 .inputs textarea{
+    width: 500px;
+    height: 120px;
+    margin-top: 5px;
+    border: 1.5px solid;
+    border-color: #A9A9A9;
+}
+.form-03 .inputs .checkbox input{
+    margin-bottom: 20px;
+}
+.form-03 .labels{
+    display: block;
+    float: left;
+    max-width: 50%;
+}
+.form-03 .labels label{
+    font-size: 17px;
+    padding-left: 8px;
+    padding-top: 7px;
+    margin-top: 3px;
+    display: inline-block;
+}
+.form-03 .labels .final label{
+    margin-top: 60px;
+}
+.form-03 .botoes{
+    margin-top: 400px;
+    margin-left: -470px;
+    display: inline-block;
+}
+.form-03 .botoes input{
+    font-size: 15px;
+    padding-left: 8px;
+    border: 2px solid;
+    border-radius: 4px;
+    border-color: #A7A7A7;
+    background-image: linear-gradient(to bottom, white, #D3D3D3);
+}
